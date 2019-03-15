@@ -13,26 +13,26 @@ Project released in **December 2018** as a university project, field : *Artifici
 ## Project content
 ```text
 .
-├── examples									<- Contains input source code (test files) for the compiler
-│   ├── correct									<- Correct source code (without errors)
-│   ├── error									<- Incorrect source code (whith errors)
+├── examples						<- Contains input source code (test files) for the compiler
+│   ├── correct						<- Correct source code (without errors)
+│   ├── error						<- Incorrect source code (whith errors)
 │	└── correctProgram.png / errorProgram.png	<- Images used as illustration
 │
-├── include										<- Contains different treatments (functions and macros) used in "main" directory
-│   ├── arith.c / arith.h						<- "Reverse Polish Notation" (to evaluate arithmetic expressions) structure and its functions
-│   ├── general.c / general.h					<- Functions and macros used in multiple ".c" files
+├── include						<- Contains different treatments (functions and macros) used in "main" directory
+│   ├── arith.c / arith.h				<- "Reverse Polish Notation" (to evaluate arithmetic expressions) structure and its functions
+│   ├── general.c / general.h				<- Functions and macros used in multiple ".c" files
 │   ├── quadruplets.c / quadruplets.h			<- Quadruplet structure and its functions
-│   ├── routine.c / routine.h					<- Semantic routines and quadruplets optimisation
-│   ├── semantic.c / semantic.h					<- Some semantic treatments
-│   ├── stack.c / stack.h						<- Stack (LIFO list) structure and its functions
+│   ├── routine.c / routine.h				<- Semantic routines and quadruplets optimisation
+│   ├── semantic.c / semantic.h				<- Some semantic treatments
+│   ├── stack.c / stack.h				<- Stack (LIFO list) structure and its functions
 │   └── symbolsTable.c / symbolsTable.h			<- Table of Symbols structure and its functions
 │
-├── main										<- Contains main files of the different compilation phases
-│   ├── lexical.l								<- Lexical analysis file
-│   └── synt.y									<- Syntactic and semantic analysis file (contains "main()")
+├── main						<- Contains main files of the different compilation phases
+│   ├── lexical.l					<- Lexical analysis file
+│   └── synt.y						<- Syntactic and semantic analysis file (contains "main()")
 │
-├── comd.sh										<- Setup file to create the compiler
-└── Readme.md									<- Current project info
+├── comd.sh						<- Setup file to create the compiler
+└── Readme.md						<- Current project info
 ```
 
 ## Technologies
