@@ -1,0 +1,42 @@
+#CALCUL
+#TAB
+#BOUCLE
+
+
+Programme Test {
+
+
+INTEGER Tab[32768] || Cpt;						// INTEGER ∈ [-32767; 32768] //
+INTEGER CONST Cs;
+
+REAL Moy || Coef;
+REAL CONST Pi;
+
+Cs := 2;								 	// First assignment to a constant, operation allowed //
+Pi := 3.14;
+
+EXECUT
+	Cpt := 2 * 0 / Tab[3];
+IF(Cpt <= 3)
+
+
+WHILE(Cpt != 3){
+
+	WHILE(Tab[3] == 2+0){
+
+		EXECUT
+			Tab[3] := Cpt - Tab[3] + Cs - 0;
+		IF(Cpt > 1)
+
+	}
+}
+
+
+Moy := Pi + Coef * 0.0;
+
+
+		//
+	End of the Program !
+		//
+
+}

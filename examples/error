@@ -1,0 +1,48 @@
+#CALCUL
+#TAB
+
+#TAB				// Library "TAB" already imported //
+
+Programme Test {
+
+	INTEGER Cpt || Vec[10];
+	INTEGER CONST Pi;
+
+	REAL Moy || Taille[50];
+	REAL CONST Rho;
+
+
+
+	INTEGER Rho;		// Double declaration of "Rho" //
+
+
+	Val := 3*-2;		// "Val" not declared //
+
+	Vec := Cpt + 5;			// "Vec" is a table, not a simple variable //
+
+
+	Pi := Cpt - 3*2;
+
+	Pi := 14;			// "Pi" is a constant, second assignment not permitted //
+
+
+	Moy := Rho - Cpt;		// Type mismatch in assignment ("INTEGER" to "REAL") //
+
+
+	Taille[53] := -1.3;		// Index out of bounds of "Taille" table //
+
+
+	Vec[8] := Pi + 32769;	// Integer too long (overflow) //
+
+
+	WHILE(Cpt > Moy){		// Type mismatch in loop ("REAL" comparison with "INTEGER") //
+
+		EXECUT
+
+			Taille[7] := Moy + 3 * 2;		// Type mismatch in assignment ("INTEGER" to "REAL") //
+
+		IF(Rho == 2.3)
+	}
+
+}
+
