@@ -16,7 +16,7 @@ Project released in **December 2018** as a university project, field : *Artifici
 ├── examples						<- Contains input source code (test files) for the compiler
 │   ├── correct						<- Correct source code (without errors)
 │   ├── error						<- Incorrect source code (whith errors)
-│	└── correctProgram.png / errorProgram.png	<- Images used as illustration
+│   └── correctProgram.png / errorProgram.png		<- Images used as illustration
 │
 ├── include						<- Contains different treatments (functions and macros) used in "main" directory
 │   ├── arith.c / arith.h				<- "Reverse Polish Notation" (to evaluate arithmetic expressions) structure and its functions
